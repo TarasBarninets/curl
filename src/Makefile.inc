@@ -6,7 +6,7 @@
 # CSRC1 = file1.c file2.c file3.c
 # CSRC2 = file4.c file5.c file6.c
 # CSOURCES = $(CSRC1) $(CSRC2)
-
+test
 # libcurl has sources that provide functions named curlx_* that aren't part of
 # the official API, but we re-use the code here to avoid duplication.
 CURLX_CFILES = \
